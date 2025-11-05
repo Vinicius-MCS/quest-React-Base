@@ -1,6 +1,6 @@
 import './styles/App.css'
-import { Text } from './components/Text/'
-import { Button } from './components/Button'
+import { Text } from './components/StyledText'
+import { Button } from './components/AlertButton'
 
 function App() {
   return (

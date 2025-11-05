@@ -4,7 +4,5 @@ interface TextProps {
 }
 
 export const Text = ({textContent, color}: TextProps) => {
-    return(
-        <p className={`uppercase text-${color}`}>{textContent}</p>
-    )
+    return <p className={`uppercase text-${color}`}>{textContent}</p>   
 }
